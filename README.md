@@ -8,9 +8,9 @@ Dưới đây là một số hình ảnh về giao diện chính của ứng d�
 ---
 <div align="center">
 
-<img src="screenshot\anh1.png" width="100"/>
-<img src="screenshot\anh2.png" width="100"/>
-<img src="screenshot\anh3.png" width="100"/>
+<img src="screenshot\anh1.jpg" width="100"/>
+<img src="screenshot\anh2.jpg" width="100"/>
+<img src="screenshot\anh3.jpg" width="100"/>
 
 </div>
 
