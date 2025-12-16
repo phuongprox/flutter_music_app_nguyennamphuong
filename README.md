@@ -1,33 +1,20 @@
-# 🎧 Music Player - [Tên Dự Án Của Bạn]
+# 🎧 Music App
 
 Ứng dụng nghe nhạc ngoại tuyến được xây dựng bằng Flutter, tập trung vào trải nghiệm người dùng tối ưu, hiệu suất cao và quản lý thư viện nhạc cục bộ một cách dễ dàng.
-
-## 🚀 Tính năng nổi bật
-
-* **Phát nhạc Ngoại tuyến:** Quét và phát các tệp nhạc (MP3, v.v.) trực tiếp từ bộ nhớ thiết bị.
-* **Quản lý Playlist:** Tạo, chỉnh sửa và xóa các danh sách phát tùy chỉnh.
-* **Màn hình Now Playing:** Giao diện người dùng toàn màn hình đẹp mắt với thanh tiến trình tương tác và điều khiển phát lại.
-* **Tùy chỉnh Cài đặt:** Hỗ trợ Chế độ Tối (Dark Mode) và điều chỉnh tốc độ phát lại (Playback Speed).
 
 ## 🖼️ Giao diện Ứng dụng
 
 Dưới đây là một số hình ảnh về giao diện chính của ứng dụng.
+---
+<div align="center">
 
-### 1. Màn hình Thư viện (Home Screen)
+<img src="screenshot\anh1.png" width="100"/>
+<img src="screenshot\anh2.png" width="100"/>
+<img src="screenshot\anh3.png" width="100"/>
 
-Màn hình hiển thị tất cả các bài hát được quét từ thiết bị.
+</div>
 
-
-### 2. Màn hình Đang Phát (Now Playing Screen)
-
-Giao diện chi tiết khi một bài hát đang được phát, bao gồm ảnh album và điều khiển phát lại.
-
-
-### 3. Chế độ Tối (Dark Mode)
-
-Hình ảnh cho thấy ứng dụng hoạt động trong chế độ tối.
-
-
+---
 ## 🛠️ Cấu trúc và Công nghệ
 
 Dự án này tuân theo kiến trúc Clean Architecture đơn giản và sử dụng các công nghệ sau:
@@ -38,5 +25,23 @@ Dự án này tuân theo kiến trúc Clean Architecture đơn giản và sử d
 * **Phát nhạc:** `just_audio`
 * **Truy vấn nhạc:** `on_audio_query`
 * **Lưu trữ cục bộ:** `shared_preferences`
+### Các bước thực hiện
 
-### Cấu trúc thư mục chính
+1.  **Clone repository:**
+    ```bash
+    git clone (https://github.com/phuongprox/flutter_music_app_nguyennamphuong)
+    cd flutter_music_app_nguyennamphuong
+    ```
+
+2.  **Tải các dependency:**
+    ```bash
+    flutter pub get
+    ```
+
+3.  **Yêu cầu quyền truy cập Bộ nhớ:**
+    Do ứng dụng truy cập tệp nhạc cục bộ, bạn cần đảm bảo cấp quyền `READ_EXTERNAL_STORAGE` trong tệp `AndroidManifest.xml` (Android) hoặc `Info.plist` (iOS).
+
+4.  **Chạy ứng dụng:**
+    ```bash
+    flutter run
+    ```
